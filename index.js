@@ -20,3 +20,7 @@ function greet(s){
     }
 };
 /* Write your implementation of displayMessage() */
+function displayMessage(s) {
+  let string = document.getElementById("greeting");
+  string.innerText = s;
+} 
